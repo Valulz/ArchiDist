@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework:spring-web:3.1.2.RELEASE'
+    compile 'org.apache.cxf:cxf-rt-frontend-jaxws:3.1.5'
+    compile 'org.apache.cxf:cxf-rt-transports-http:3.1.5'
+    compile 'org.apache.cxf:cxf-rt-transports-http-jetty:3.1.5'
+}
